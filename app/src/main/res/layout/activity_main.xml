@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/First_quarter"
+            android:textColor="@color/red"
+            android:textSize="28sp"
+            />
+        <View
+            android:layout_width = "fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/red" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="25dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:background="@color/colorPrimaryDark"
+            android:text="JAN"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:src="@mipmap/ic_launcher_foreground"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="25dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:text="FEB"
+            android:background="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:src="@mipmap/ic_launcher_foreground"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="25dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:background="@color/colorPrimaryDark"
+            android:text="MAR"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:src="@mipmap/ic_launcher_foreground"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Second_quarter"
+        android:textColor="@color/red"
+        android:textSize="28sp"
+        />
+    <View
+        android:layout_width = "fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/red"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="25dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:background="@color/colorPrimaryDark"
+            android:text="APR"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:src="@mipmap/ic_launcher_foreground"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:paddingBottom="25dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:background="@color/colorPrimaryDark"
+            android:text="MAY"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:src="@mipmap/ic_launcher_foreground"/>
+
+    </LinearLayout>
+
+</LinearLayout>
